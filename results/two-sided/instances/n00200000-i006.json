@@ -1,0 +1,54 @@
+{
+ "n": 200000,
+ "instance": 6,
+ "seed": 20261111,
+ "bounds": "two-sided",
+ "order": [
+  "Inf+Peg",
+  "Peg-cold",
+  "Seq",
+  "Inf"
+ ],
+ "results": {
+  "Inf+Peg": {
+   "seconds": 0.5637977079895791,
+   "nodes": 3285,
+   "pegging_visits": 3445175,
+   "screened": 1053533,
+   "prefixed": 309652,
+   "objective": 255367.4635918941,
+   "box_violation": 0.0,
+   "prefix_violation": 7.494236342608929e-10,
+   "equality_error": 3.2014213502407074e-10
+  },
+  "Peg-cold": {
+   "seconds": 0.6647105409938376,
+   "nodes": 3285,
+   "pegging_visits": 4476405,
+   "objective": 255367.46359189405,
+   "box_violation": 0.0,
+   "prefix_violation": 7.930793799459934e-10,
+   "equality_error": 4.511093720793724e-10
+  },
+  "Seq": {
+   "seconds": 1.015190749982139,
+   "breakpoint_searches": 617899,
+   "objective": 255367.46359186457,
+   "box_violation": 0.0,
+   "prefix_violation": 3.2014213502407074e-10,
+   "equality_error": 2.0372681319713593e-10
+  },
+  "Inf": {
+   "seconds": 1.4950883749988861,
+   "nodes": 3285,
+   "objective": 255367.46359189373,
+   "box_violation": 0.0,
+   "prefix_violation": 8.076312951743603e-10,
+   "equality_error": 7.566995918750763e-10
+  }
+ },
+ "max_coordinate_diff": 4.244016249543847e-11,
+ "relative_objective_gap": 1.1567796264285872e-13,
+ "max_primal_violation": 8.076312951743603e-10,
+ "checked": true
+}

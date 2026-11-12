@@ -1,0 +1,54 @@
+{
+ "n": 10,
+ "instance": 7,
+ "seed": 20261111,
+ "bounds": "two-sided",
+ "order": [
+  "Peg-cold",
+  "Seq",
+  "Inf",
+  "Inf+Peg"
+ ],
+ "results": {
+  "Peg-cold": {
+   "seconds": 4.362498293630779e-05,
+   "nodes": 19,
+   "pegging_visits": 67,
+   "objective": 15.164963850622833,
+   "box_violation": 0.0,
+   "prefix_violation": 0.0,
+   "equality_error": 0.0
+  },
+  "Seq": {
+   "seconds": 4.104201798327267e-05,
+   "breakpoint_searches": 24,
+   "objective": 15.164963850622831,
+   "box_violation": 0.0,
+   "prefix_violation": 0.0,
+   "equality_error": 0.0
+  },
+  "Inf": {
+   "seconds": 8.441699901595712e-05,
+   "nodes": 19,
+   "objective": 15.164963850622833,
+   "box_violation": 0.0,
+   "prefix_violation": 0.0,
+   "equality_error": 0.0
+  },
+  "Inf+Peg": {
+   "seconds": 3.833399387076497e-05,
+   "nodes": 19,
+   "pegging_visits": 61,
+   "screened": 26,
+   "prefixed": 2,
+   "objective": 15.164963850622833,
+   "box_violation": 0.0,
+   "prefix_violation": 0.0,
+   "equality_error": 0.0
+  }
+ },
+ "max_coordinate_diff": 4.440892098500626e-16,
+ "relative_objective_gap": 1.1713558020300157e-16,
+ "max_primal_violation": 0.0,
+ "checked": true
+}

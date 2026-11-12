@@ -1,0 +1,16 @@
+{
+  "seed": 20261111,
+  "bounds": "paired",
+  "ablation": true,
+  "algorithms": [
+    "Seq",
+    "Inf",
+    "Inf+Peg",
+    "Peg-cold"
+  ],
+  "python": "3.10.9 (main, Mar  1 2023, 12:20:14) [Clang 14.0.6 ]",
+  "numpy": "1.23.5",
+  "platform": "macOS-14.4-arm64-arm-64bit",
+  "solver_sha256": "e7efd323724fbfb8bedb7c3851a06ff3273596eb1d081da48f9ec4a5a17369c2",
+  "driver_sha256": "3b15284bd2d581e5b061946b989044f8bd36a9b3e85d50aad410dee63c10661e"
+}
